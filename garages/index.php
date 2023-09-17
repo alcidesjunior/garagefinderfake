@@ -1,46 +1,83 @@
-<?php
-$parking1 = array(
-    "id" => 1,
-    "parkingSpaces" => 50,
-    "busySpace" => 10,
-    "price" => 15.0,
-    "lat" => "-3.7438212",
-    "long" => "-38.5381543"
-);
+{
+   "results":[
+      {
+         "id":1,
+         "parkingSpaces":50,
+         "busySpace":10,
+         "price":15.0,
+         "lat":"123.456789",
+         "long":"987.654321"
+      },
+      {
+         "id":2,
+         "parkingSpaces":30,
+         "busySpace":5,
+         "price":10.0,
+         "lat":"456.123789",
+         "long":"789.321654"
+      },
+      {
+         "id":3,
+         "parkingSpaces":40,
+         "busySpace":15,
+         "price":20.0,
+         "lat":"789.123456",
+         "long":"321.987654"
+      },
+      {
+         "id":4,
+         "parkingSpaces":60,
+         "busySpace":20,
+         "price":25.0,
+         "lat":"987.654321",
+         "long":"123.456789"
+      }
+   ]
+}
 
-$parking2 = array(
-    "id" => 2,
-    "parkingSpaces" => 30,
-    "busySpace" => 5,
-    "price" => 10.0,
-    "lat" => "-3.7438794",
-    "long" => "-38.5361452"
-);
+// <?php
+// $parking1 = array(
+//     "id" => 1,
+//     "parkingSpaces" => 50,
+//     "busySpace" => 10,
+//     "price" => 15.0,
+//     "lat" => "-3.7438212",
+//     "long" => "-38.5381543"
+// );
 
-$parking3 = array(
-    "id" => 3,
-    "parkingSpaces" => 40,
-    "busySpace" => 15,
-    "price" => 20.0,
-    "lat" => "-3.737900",
-    "long" => "-38.5363314"
-);
+// $parking2 = array(
+//     "id" => 2,
+//     "parkingSpaces" => 30,
+//     "busySpace" => 5,
+//     "price" => 10.0,
+//     "lat" => "-3.7438794",
+//     "long" => "-38.5361452"
+// );
 
-$parking4 = array(
-    "id" => 4,
-    "parkingSpaces" => 60,
-    "busySpace" => 20,
-    "price" => 25.0,
-    "lat" => "987.654321",
-    "long" => "123.456789"
-);
+// $parking3 = array(
+//     "id" => 3,
+//     "parkingSpaces" => 40,
+//     "busySpace" => 15,
+//     "price" => 20.0,
+//     "lat" => "-3.737900",
+//     "long" => "-38.5363314"
+// );
 
-// Colocar os itens em um array
-$parkingArray = array($parking1, $parking2, $parking3, $parking4);
+// $parking4 = array(
+//     "id" => 4,
+//     "parkingSpaces" => 60,
+//     "busySpace" => 20,
+//     "price" => 25.0,
+//     "lat" => "987.654321",
+//     "long" => "123.456789"
+// );
 
-// Codificar o array em formato JSON
-$jsonString = json_encode($parkingArray, JSON_PRETTY_PRINT);
+// // Colocar os itens em um array
+// $parkingArray = array($parking1, $parking2, $parking3, $parking4);
 
-// Imprimir a saída JSON
-echo $jsonString;
-?>
+// // Codificar o array em formato JSON
+// $jsonString = json_encode($parkingArray, JSON_PRETTY_PRINT);
+
+// // Imprimir a saída JSON
+// echo $jsonString;
+// ?>
