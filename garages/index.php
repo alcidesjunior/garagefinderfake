@@ -5,32 +5,24 @@
          "parkingSpaces":50,
          "busySpace":10,
          "price":15.0,
-         "lat":"123.456789",
-         "long":"987.654321"
+         "lat":"-3.7438212",
+         "long":"-38.5381543"
       },
       {
          "id":2,
          "parkingSpaces":30,
          "busySpace":5,
          "price":10.0,
-         "lat":"456.123789",
-         "long":"789.321654"
+         "lat":"-3.7438794",
+         "long":"-38.5361452"
       },
       {
          "id":3,
          "parkingSpaces":40,
          "busySpace":15,
          "price":20.0,
-         "lat":"789.123456",
-         "long":"321.987654"
-      },
-      {
-         "id":4,
-         "parkingSpaces":60,
-         "busySpace":20,
-         "price":25.0,
-         "lat":"987.654321",
-         "long":"123.456789"
+         "lat":"-3.737900",
+         "long":"-38.5363314"
       }
    ]
 }
