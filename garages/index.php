@@ -42,5 +42,5 @@ $parkingArray = array($parking1, $parking2, $parking3, $parking4);
 $jsonString = json_encode($parkingArray, JSON_PRETTY_PRINT);
 
 // Imprimir a saída JSON
-return $jsonString;
+echo $jsonString;
 ?>
