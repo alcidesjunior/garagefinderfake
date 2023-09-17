@@ -9,7 +9,7 @@
          "long":"-38.5381543"
       },
       {
-         "id":2,
+         "id":1,
          "parkingSpaces":30,
          "busySpace":5,
          "price":10.0,
@@ -17,7 +17,7 @@
          "long":"-38.5361452"
       },
       {
-         "id":3,
+         "id":1,
          "parkingSpaces":40,
          "busySpace":15,
          "price":20.0,
