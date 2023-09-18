@@ -1,7 +1,7 @@
 {
 "result": {
 "id":1,
-description: "garagem legal",
+"description": "garagem legal",
 "parkingSpaces": 3,
 "busySpaces": 0,
 "price": 3.45,
