@@ -6,6 +6,7 @@ description: "garagem legal",
 "busySpaces": 0,
 "price": 3.45,
 "usedId": 1,
-"comments": []
+"comments": [],
+"average": 4
 }
 }
