@@ -1,1 +1,11 @@
-{"result": {"id":1,"parkingSpaces":50,"busySpace":10,"price":15.0,"lat":"-3.7438212","long":"-38.5381543"}}
+{
+"result": {
+"id":1,
+description: "garagem legal",
+"parkingSpaces": 3,
+"busySpaces": 0,
+"price": 3.45,
+"usedId": 1,
+"comments: []
+}
+}
